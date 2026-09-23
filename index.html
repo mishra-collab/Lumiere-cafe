@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Lumière Café | Coffee & Conversations</title>
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+  
+
+  <header>
+
+    <nav class="navbar">
+      <a href="#" class="logo">Lumière<span>.</span></a>
+
+  
+      <ul class="links">
+        <li>
+          <a href="#home" >Home</a>
+        </li>
+        <li>
+          <a href="#menu" >Menu</a>
+        </li>
+        <li>
+          <a href="#abt" >About</a>
+        </li>
+        <li>
+          <a href="#reservation" >Reserve</a>
+        </li>
+      </ul>
+
+      
+      <button class="theme-btn">
+      ☀️
+      </button>
+
+      
+      <button class="menu-btn">
+       <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    </header>
+
+   
+
+   <main>
+     <section class="hero" id="home">
+      <div class="hero-content">
+      <P class="tagline">Your morning starts with a fresh brew ☕</P>
+    
+      <h1>Coffee that feels like <span>home.</span></h1>
+
+     <p class="hero-text">Slow mornings, warm conversations,
+     and coffee made with care.
+     Welcome to Lumière Café.</p>
+
+   
+
+    <div class="hero-btn">
+      <a href="#menu"  class="btn">Explore the menu</a>
+
+      <a href="#reservation"  class="reservation-btn">Book a table</a>
+      
+    </div>
+
+</div>
+     </section>
+   </main>
+
+   
+   <section id="menu" class="menu">
+    <div class="menu-container">
+      <small>OUR MENU</small>
+      <h2>Something for every mood.</h2>
+    </div>
+  
+    <div class="menu-cateegories">
+      <button  class="menu-item active" data-category="All">All</button>
+      <button class="menu-item" data-category="Coffee">Coffee</button>
+      <button class="menu-item" data-category="Desserts">Desserts</button>
+      <button class="menu-item" data-category="Food">Food</button>
+    </div>
+
+    <div class="menu-grid">
+      <article class="menu-card" data-category="Coffee">
+        <img src="images/cappuchino.jpeg" alt="cappuchino coffee">
+
+        <div class="about-item">
+        <h3>Cappuccino</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹250</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+      <article class="menu-card" data-category="Coffee">
+         <img src="images/expreso.jpeg" alt="Espresso coffee">
+
+        <div class="about-item">
+        <h3>Espresso</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹220</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+      <article class="menu-card" data-category="Coffee">
+         <img src="images/latte.jpeg" alt="Latte coffee">
+
+        <div class="about-item">
+        <h3>Latte</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹180</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+      <article class="menu-card" data-category="Desserts">
+         <img src="images/cake.jpeg" alt="Chocolate cake">
+
+        <div class="about-item">
+        <h3>Chocolate Cake</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹499</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+      <article class="menu-card" data-category="Food">
+         <img src="images/Croissant.jpeg" alt="Croissant">
+
+        <div class="about-item">
+        <h3>Croissant</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹150</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+      <article class="menu-card" data-category="Food">
+         <img src="images/Sandwich.jpeg" alt="Sandwich">
+
+        <div class="about-item">
+        <h3>Sandwich</h3>
+        <p>Strong.bold and classic.</p>
+        <span>₹80</span>
+        <button class="add-btn">Add</button>
+        </div>
+      </article>
+     
+    </div>
+   </section>
+
+
+
+   <section id="abt" class="story">
+    <div class="story-container">
+     <div class="story-stats">
+    <h3>Why people come back</h3>
+    <p>
+        Good coffee matters. But so does the feeling
+        you get when you walk through the door.
+    </p>
+    <div class="stats">
+        <div>
+            <strong>4.9</strong>
+            <span>Rating</span>
+        </div>
+        <div>
+            <strong>12k</strong>
+            <span>Customers</span>
+        </div>
+        <div>
+            <strong>8+</strong>
+            <span>Years</span>
+        </div>
+    </div>
+</div>
+      <div class="story-content">
+        <small class="tagline2">Our story</small>
+        <h2>Made slowly. Served warmly.</h2>
+        <p>Lumière started with a simple idea: create a place where people can slow down, enjoy good coffee and have meaningful conversations.</p>
+       
+      </div>
+    </div>
+   </section>
+
+
+
+   <section id="reservation" class="reservation">
+    <small>RESERVATION</small>
+    <h2>Save your table.</h2>
+
+    <form class="reservation-form">
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input 
+            type="text" 
+            id="name"
+            placeholder="Your name"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+            type="email" 
+            id="email"
+            placeholder="Your email"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="date">Date</label>
+        <input  type="date" id="date" required >
+    </div>
+
+    <div class="form-group">
+        <label for="time">Time</label>
+        <input 
+            type="time" 
+            id="time"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="guests">Number of Guests</label>
+        <select id="guests" required>
+            <option value="">Select guests</option>
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+            <option value="5">5 Guests</option>
+            <option value="6">6+ Guests</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Special Request</label>
+        <textarea 
+            id="message"
+            placeholder="Any special request?"
+            rows="4"
+        ></textarea>
+    </div>
+
+    <button type="submit" class="reservation-submit">
+        Reserve My Table
+    </button>
+    <p class="success-message"></p>
+
+</form>
+   </section>
+
+  <div class="cart-box">
+
+    <i id="logonew" class="fa-solid fa-cart-shopping"></i>
+
+    <small>Cart:</small>
+    <small id="cart-count">0</small>
+
+    <small style="font-size: 15px; font-weight: 500;">|</small>
+
+    <small>Total:</small>
+    <small id="cart-total">₹0</small>
+
+</div>
+
+   <footer class="bottom">
+    <small class="textttt">© 2026 Lumière Café. Made with coffee & code.</small>
+  
+   </footer>
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
